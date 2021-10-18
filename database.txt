@@ -1,0 +1,19 @@
+================
+auto in vendita
+================
+
+id - intero - MEDIUMINT - AUTOINCREMENT - PRIMARY_KEY
+marca - stringa - VARCHAR(30) - NOTNULL
+anno - data - YEAR - NOTNULL
+kilometri - intero - MEDIUMINT - NOTNULL
+cavalli - intero - SMALLINT - NOTNULL
+colore - stringa - VARCHAR(40) - NOTNULL
+tipologia - stringa - VARCHAR(40) - NOTNULL
+prezzo - intero - MEDIUMINT - NOTNULL
+carburante - stringa - VARCHAR(20) - NOTNULL
+cambio - stringa - VARCHAR(15) - NOTNULL
+posti - intero - TINYINT - NULL
+proprietari - intero - TINYINT - NULL
+garanzia - data - YEAR - NULL
+optional - stringa - text - NULL
+classe_emissioni - intero - TINYINT - NOTNULL
